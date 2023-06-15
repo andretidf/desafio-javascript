@@ -1,0 +1,8 @@
+.titulo {
+    margin-top: 20px;
+}
+
+#num_usuarios_cadastrados{
+    text-align: right;
+    padding: 30px;
+}
