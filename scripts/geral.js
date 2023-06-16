@@ -100,7 +100,7 @@ function insereLinha(x){
 function mostrar_no_console(){
         console.log('---------------------------------------------------------------------')
         console.log('-------------------------DESAFIO 4-----------------------------------')
-        users.forEach((x) => console.log(`Nome: ${x.nome}, Idade: ${x.idade}, Email: ${x.idade}, Classificação: ${x.classificacao}`));
+        users.forEach((x) => console.log(`Nome: ${x.nome}, Idade: ${x.idade}, Email: ${x.email}, Classificação: ${x.classificacao}`));
         console.log('---------------------------------------------------------------------')
         console.log(`Tamanho do Array / Número de cadastros = ${users.length}`);
         console.log('---------------------------------------------------------------------')
